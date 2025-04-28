@@ -1,0 +1,217 @@
+/*.imagem{
+    background: url("desenhando.png") no-repeat;
+    border-radius: 15%;
+    position: relative;
+    scale: 90%;
+    margin-left: 200px;
+    display: block;
+    background-size: contain;
+}*/
+
+.imagem{
+    background: url("imagens/desenhando.png");
+    position: relative;
+    margin: auto;
+    border-radius: 15%;
+    scale: 0.9;
+    top: 20px;
+    width: 1040px;
+    height: 555px;
+    display: block;
+    background-size: contain;
+}
+
+.imagem:hover{
+    background: url("imagens/desenhando2.png");
+    scale: 1;
+}
+
+.bg{
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: rgb(230, 218, 204);
+}
+
+.nome{
+    background-color: white;
+    color: rgb(58, 52, 45);
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.bio{
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-size: 40px;
+}
+
+#botao1{
+    color: rgb(206, 82, 82);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    padding: 9px 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+#botao1:hover{
+    scale: 105%;
+}
+
+#escondido{
+    /*rgb(230, 218, 204)*/
+    background-color: rgb(230, 218, 204);
+    color: rgb(230, 218, 204);
+    line-height: 100px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+}
+
+.gosto{
+    margin: auto;
+    display: table;
+    background-color: white;
+    color: rgb(58, 52, 45);
+    font-size: 90px;
+    position: relative;
+    text-align: left;
+
+}
+
+.lista{
+    line-height: 77px;
+    display: table;
+    background-color: white;
+    color: rgb(58, 52, 45);
+    margin: auto;
+    font-size: 50px;
+    font-weight: 800;
+    list-style-type: none;
+    text-align: left;
+    right: 300px;
+}
+
+.preimg{
+    font-size: 33px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.tabela{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    position: relative;
+} 
+
+.headtabela{
+    font-size: 75px;
+    background-color: white;
+    color: rgb(58, 52, 45);
+    position: relative;
+    text-align: center;
+    font-weight: 800;
+}
+
+.innertabela{
+    color: rgb(58, 52, 45);
+    width: 100%;
+    font-size: 100px;
+    position: relative;
+    text-align: right;
+    font-weight: 700;
+    margin-bottom: 200px;
+}
+
+.pais1{
+    background: url("imagens/uruguai1.jpeg");
+    position: relative;
+    border-radius: 5%;
+    scale: 0.8;
+    width: 540px;
+    height: 312px;
+    display: block;
+    background-size: contain;
+}
+
+.pais1:hover{
+    scale: 0.9;
+    background: url("imagens/uruguai2.jpeg");
+}
+
+.pais2{
+    background: url("imagens/canada1.jpeg");
+    position: relative;
+    border-radius: 5%;
+    scale: 0.8;
+    width: 540px;
+    height: 312px;
+    display: block;
+    background-size: contain;
+}
+
+.pais2:hover{
+    scale: 0.9;
+    background: url("imagens/canada2.jpg");
+}
+
+.pais3{
+    background: url("imagens/china1.jpeg");
+    position: relative;
+    border-radius: 5%;
+    scale: 0.8;
+    width: 540px;
+    height: 312px;
+    display: block;
+    background-size: contain;
+}
+
+.pais3:hover{
+    scale: 0.9;
+    background: url("imagens/china2.jpeg");
+}
+
+.link{
+    background-color: white;
+    color: rgb(58, 52, 45);
+    margin-top: 30px;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+
+#thelink{
+    color: blueviolet;
+}
+
+#thelink:hover{
+    background-color: blueviolet;
+    color: rgb(59, 27, 90);
+    font-weight: 700;
+}
+
+.imagemfim{
+    background: url("imagens/plaza.png") repeat;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: block;
+    background-size: contain;
+}
+
+#text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
